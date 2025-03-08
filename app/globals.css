@@ -1,24 +1,26 @@
-@import "tailwindcss";
+@import 'tailwindcss';
 
 @theme {
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --font-sans: var(--font-helvetica);
 }
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+  --primary: #ff6347;
+  --secondary: #444444;
 }
 
 body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+  color: var(--primary);
+  background: var(--secondary);
+}
+
+.container {
+  @apply max-w-[1464px] mx-auto px-[228px] sm:px-8;
+}
+
+.btn-primary {
+  @apply rounded-full border border-solid border-black/[.08] dark:border-white/[.145] transition-colors inline-flex gap-[16px] items-center justify-center bg-[var(--primary)] hover:border-transparent text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 sm:min-w-48 text-white font-semibold text-[18px];
+}
+.btn-outline {
+  @apply rounded-full border border-solid border-black/[.08] dark:border-white/[.145] transition-colors inline-flex gap-[16px] items-center justify-center bg-[var(--primary)] hover:border-transparent text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 sm:min-w-48 text-white font-semibold text-[18px];
 }
