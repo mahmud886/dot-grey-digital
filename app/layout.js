@@ -1,3 +1,5 @@
+import Footer from '@/components/footer';
+import Navbar from '@/components/navbar';
 import { helveticaNeue } from './fonts';
 import './globals.css';
 
@@ -9,7 +11,11 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang='en' suppressHydrationWarning>
-      <body className={`${helveticaNeue.variable} antialiased`}>{children}</body>
+      <body className={`${helveticaNeue.variable} antialiased`}>
+        <Navbar />
+        {children}
+        <Footer />
+      </body>
     </html>
   );
 }
