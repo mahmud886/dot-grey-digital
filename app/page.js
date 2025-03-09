@@ -1,3 +1,4 @@
+import BrandsSection from '@/components/brands-section';
 import FeatureSection from '@/components/feature-section';
 import Header from '@/components/header';
 import OurServices from '@/components/our-services';
@@ -14,6 +15,7 @@ export default function Home() {
       <WhyChooseUs />
       <OurWorks />
       <Testimonials />
+      <BrandsSection />
 
       {/* <DynamicButton svgIcon={<UpArrow />}>Learn More</DynamicButton>
       <DynamicButton svgIcon={<UpArrow />} isOutline={true}>

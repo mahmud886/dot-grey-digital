@@ -1,6 +1,7 @@
 'use client';
 import DynamicButton from '@/components/dynamic-button';
 import { ChevronDown, Menu, X } from 'lucide-react';
+import Link from 'next/link';
 import { useState } from 'react';
 
 const Navbar = () => {
@@ -12,8 +13,10 @@ const Navbar = () => {
     {
       label: 'Solution',
       dropdown: [
-        { label: 'Web Development', href: '/products/web-dev' },
-        { label: 'Mobile Apps', href: '/products/mobile-apps' },
+        { label: 'Email Development', href: '/solutions/email-development' },
+        { label: 'FrontEnd Development', href: '/solutions/frontend-development' },
+        { label: 'Digital Banner Ads', href: '/solutions/digital-banners' },
+        { label: 'Veeva', href: '/solutions/veeva' },
       ],
     },
     { label: 'Works', href: '/works' },
@@ -96,12 +99,12 @@ const Navbar = () => {
                 {isDropdownOpen && (
                   <div className='pl-6'>
                     {item.dropdown.map((subItem, subIndex) => (
-                      <a
+                      <Link
                         key={subIndex}
                         href={subItem.href}
                         className='block px-4 py-2 text-gray-700 dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700'>
                         {subItem.label}
-                      </a>
+                      </Link>
                     ))}
                   </div>
                 )}
