@@ -6,7 +6,7 @@ import UpArrow from './svgs/up-arrow';
 
 const OurServices = () => {
   return (
-    <section className='w-full py-20 bg-[#0A0C0C]'>
+    <section className='w-full py-20 bg-[#062729]'>
       <div className='container mx-auto px-6'>
         {/* Section Title */}
         <h2 className='text-[70px] font-normal text-center text-gray-900 dark:text-white'>Our Services</h2>

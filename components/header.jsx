@@ -6,8 +6,15 @@ const Header = () => {
   return (
     <header className='relative w-full flex flex-col justify-center items-center'>
       {/* Background Image */}
-      <div className='absolute inset-0 w-full h-full'>
-        <Image src='/assets/hero-image.png' alt='Header Background' width={1920} height={950} />
+      <div className='absolute inset-0 w-full h-full bg-[#0A0A0A]'>
+        <Image
+          src='/assets/hero-image.png'
+          alt='Header Background'
+          width={1920}
+          height={950}
+          className='w-full h-full object-cover'
+          priority
+        />
       </div>
       {/* Header Content */}
       <div className='relative z-10 container mx-auto flex flex-col-reverse md:flex-row items-center justify-between py-20 md:py-32 mt-[100px]'>
