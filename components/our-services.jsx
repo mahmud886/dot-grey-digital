@@ -29,7 +29,7 @@ const OurServices = () => {
               {/* <span className={` w-10 h-1 bg-current ${service.color}`}></span> */}
 
               {/* Service Icon */}
-              <div className='absolute -top-[24px] bg-[#0A0C0C] px-2'>
+              <div className='absolute -top-[24px] bg-[#062729] px-2'>
                 <Image src={service.icon} alt={service.name} width={50} height={50} />
               </div>
 
