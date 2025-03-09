@@ -22,40 +22,42 @@ const Footer = () => {
       </div>
 
       {/* 🔹 Middle Section: Social Media Icons */}
-      <div className='container mx-auto px-6 py-6 grid grid-cols-2 md:grid-cols-4'>
+      <div className='container mx-auto px-6 grid grid-cols-2 md:grid-cols-4'>
         {socialLinks.map((social) => (
           <a
             key={social.id}
             href={social.url}
             target='_blank'
             rel='noopener noreferrer'
-            className='flex justify-center items-center p-12 border  hover:bg-[var(--primary)] transition'>
+            className='flex justify-center items-center p-12 border border-[#313131]  hover:bg-[var(--primary)] transition'>
             <Image src={social.icon} alt='Social Icon' width={44} height={44} />
           </a>
         ))}
       </div>
 
       {/* 🔹 Search & Quick Action Section */}
-      <div className='container mx-auto px-6 py-6 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 border-b border-gray-700'>
-        {/* Left: Title */}
-        <div className='flex items-center justify-center md:justify-start'>
-          <h4 className='text-[28px] md:text-[36px] font-normal leading-normal text-center md:text-left'>
-            Get Started With Your Project
-          </h4>
-        </div>
+      <div className='container mx-auto px-6 '>
+        <div className='p-12 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 border border-[#313131]'>
+          {/* Left: Title */}
+          <div className='flex items-center justify-center md:justify-start'>
+            <h4 className='text-[28px] md:text-[36px] font-normal leading-normal text-center md:text-left'>
+              Get Started With Your Project
+            </h4>
+          </div>
 
-        {/* Middle: Search Bar */}
-        <div className='flex items-center justify-center'>
-          <input
-            type='text'
-            placeholder='Enter your email'
-            className='w-full max-w-[450px] px-5 py-3 rounded-lg text-gray-900 border border-[#6D6D6D] focus:ring focus:ring-red-400'
-          />
-        </div>
+          {/* Middle: Search Bar */}
+          <div className='flex items-center justify-center'>
+            <input
+              type='text'
+              placeholder='Enter your email'
+              className='w-full max-w-[450px] px-5 py-3 rounded-lg text-gray-900 border border-[#6D6D6D] focus:ring focus:ring-red-400'
+            />
+          </div>
 
-        {/* Right: Button */}
-        <div className='flex items-center justify-center md:justify-end'>
-          <DynamicButton svgIcon={<UpArrow />}>Get Your Qoute</DynamicButton>
+          {/* Right: Button */}
+          <div className='flex items-center justify-center md:justify-end'>
+            <DynamicButton svgIcon={<UpArrow />}>Get Your Qoute</DynamicButton>
+          </div>
         </div>
       </div>
 
@@ -108,7 +110,7 @@ const Footer = () => {
       </div>
 
       {/* 🔹 Copyright */}
-      <div className='text-center py-8 border-t border-[#C3C3C3]'>
+      <div className='text-center py-8 border-t border-[#313131]'>
         <p className='text-[16px] font-normal text-white'>
           © {new Date().getFullYear()} Dotgrey digital, Inc. All rights reserved
         </p>

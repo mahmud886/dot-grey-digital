@@ -37,7 +37,7 @@ const WhyChooseUs = () => {
                   {card.badge}
                 </button>
                 <h3 className='text-[56px] font-medium text-white'>{card.title}</h3>
-                <p className='text-gray-600 text-[16px] leading-[35px]'>{card.description}</p>
+                <p className='text-white text-[16px] leading-[35px]'>{card.description}</p>
                 {/* Learn More Button */}
                 <div className='mt-6'>
                   <DynamicButton svgIcon={<UpArrow />}>Learn More</DynamicButton>
