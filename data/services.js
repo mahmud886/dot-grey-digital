@@ -15,49 +15,68 @@ export const services = [
       image: '/assets/images/services/services-1.png',
     },
     whatWeDo: {
-      image: '/assets/services/email-design-what-we-do.png',
+      image: '/assets/icons/services/service-email.svg',
       list: [
-        'Crafting pixel-perfect email designs',
-        'Ensuring mobile responsiveness',
-        'Optimizing for higher conversions',
-        'Providing multiple template variations',
+        'Custom and modular email templates.',
+        'Compatibility across all major email clients.',
+        'A/B testing and optimization for higher engagement.',
+        'Mobile-friendly and responsive design. ',
       ],
     },
     ourWorks: {
-      title: 'Recent Email Designs',
-      shortDescription: 'Explore some of our top-performing email campaigns crafted for leading brands.',
+      title: 'Email Portfolio',
+      shortDescription: 'Campaign Monitor & Mailchimp Integration',
       listItems: [
         {
-          image: '/assets/works/email-work-1.png',
-          title: 'E-Commerce Promotional Email',
+          image: '/assets/images/services/works/email/email-service-work1.png',
+          title: 'Workday Elevate Email Template',
           link: 'https://example.com/work/email1',
         },
         {
-          image: '/assets/works/email-work-2.png',
-          title: 'SaaS Product Newsletter',
+          image: '/assets/images/services/works/email/email-service-work2.png',
+          title: 'APJ Elevate Email Template',
+          link: 'https://example.com/work/email2',
+        },
+        {
+          image: '/assets/images/services/works/email/email-service-work3.png',
+          title: 'APJ Elevate Email Template',
+          link: 'https://example.com/work/email2',
+        },
+        {
+          image: '/assets/images/services/works/email/email-service-work4.png',
+          title: 'APJ Elevate Email Template',
           link: 'https://example.com/work/email2',
         },
       ],
     },
     whatWeGet: {
-      title: 'Why Choose Our Email Design Service?',
+      title: 'What You’ll Get',
       shortDescription: 'Our email designs help you boost engagement, improve readability, and drive conversions.',
       list: [
         {
-          title: 'Mobile Responsive',
-          description: 'Ensures emails look perfect on all devices.',
+          title: 'Table Based Layout & Inline CSS',
+          description:
+            'For perfect layout and rendering, we use tables and optimized inline CSS to ensure extended support to all major Email clients.',
         },
         {
-          title: 'Custom Designs',
-          description: 'Unique templates tailored to your brand identity.',
+          title: 'Compatibility With Major Email Clients',
+          description:
+            'With the use of Litmus testing service, we can ensure your email design looks perfect in various web, desktop and mobile based email clients. That’s not all – we also share the test result so that you can double check.',
         },
         {
-          title: 'High Engagement',
-          description: 'Optimized layouts to improve click-through rates.',
+          title: 'Drag Drop template Builder',
+          description:
+            'Our intuitive template builder and readymade email template – gives the flexibility to start your marketing campaign immediately. Check out email.activeoo.com, which is entirely dedicated to email solution.',
         },
         {
-          title: 'A/B Testing',
-          description: 'Data-driven approach to maximize email performance.',
+          title: 'Responsive Email Templates',
+          description:
+            'A large number of email subscribers prefer to read the newsletter on mobile devices. Choose Responsive option while ordering – to make sure your mobile subscribers are not missing any word.',
+        },
+        {
+          title: 'CampaignMonitor & MailChimp Integration',
+          description:
+            'We create flexible, re-usable email templates for Campaign Monitor and MailChimp so that it’s easy for you to create fresh emails for your marketing campaign.',
         },
       ],
     },
@@ -79,7 +98,7 @@ export const services = [
       image: '/assets/images/services/services-2.png',
     },
     whatWeDo: {
-      image: '/assets/services/web-development-what-we-do.png',
+      image: '/assets/icons/services/services-frontend.svg',
       list: [
         'Developing scalable web applications',
         'Creating intuitive user experiences',
@@ -88,16 +107,26 @@ export const services = [
       ],
     },
     ourWorks: {
-      title: 'Web Development Projects',
+      title: 'Front EndPortfolio',
       shortDescription: 'Take a look at some of our latest website projects that drive business growth.',
       listItems: [
         {
-          image: '/assets/works/web-work-1.png',
+          image: '/assets/images/services/works/frontend/frontend-service-work1.png',
           title: 'E-Commerce Website',
           link: 'https://example.com/work/web1',
         },
         {
-          image: '/assets/works/web-work-2.png',
+          image: '/assets/images/services/works/frontend/frontend-service-work2.png',
+          title: 'Corporate Business Website',
+          link: 'https://example.com/work/web2',
+        },
+        {
+          image: '/assets/images/services/works/frontend/frontend-service-work3.png',
+          title: 'Corporate Business Website',
+          link: 'https://example.com/work/web2',
+        },
+        {
+          image: '/assets/images/services/works/frontend/frontend-service-work4.png',
           title: 'Corporate Business Website',
           link: 'https://example.com/work/web2',
         },
@@ -109,19 +138,23 @@ export const services = [
       list: [
         {
           title: 'Scalable Solutions',
-          description: 'Build websites that grow with your business.',
+          description:
+            'A large number of email subscribers prefer to read the newsletter on mobile devices. Choose Responsive option while ordering – to make sure your mobile subscribers are not missing any word.',
         },
         {
           title: 'SEO Optimized',
-          description: 'Boost visibility and rank higher on search engines.',
+          description:
+            'A large number of email subscribers prefer to read the newsletter on mobile devices. Choose Responsive option while ordering – to make sure your mobile subscribers are not missing any word.',
         },
         {
           title: 'User-Centric Design',
-          description: 'Create seamless experiences for your users.',
+          description:
+            'A large number of email subscribers prefer to read the newsletter on mobile devices. Choose Responsive option while ordering – to make sure your mobile subscribers are not missing any word.',
         },
         {
           title: 'High Security',
-          description: 'Protect your website with advanced security measures.',
+          description:
+            'A large number of email subscribers prefer to read the newsletter on mobile devices. Choose Responsive option while ordering – to make sure your mobile subscribers are not missing any word.',
         },
       ],
     },
@@ -143,7 +176,7 @@ export const services = [
       image: '/assets/images/services/services-3.png',
     },
     whatWeDo: {
-      image: '/assets/services/digital-marketing-what-we-do.png',
+      image: '/assets/icons/services/services-banner.svg',
       list: [
         'Running targeted ad campaigns',
         'Improving website search rankings',
@@ -152,40 +185,54 @@ export const services = [
       ],
     },
     ourWorks: {
-      title: 'Successful Campaigns',
+      title: 'Digital Banner Ads Portfolio',
       shortDescription: 'See how our digital marketing strategies have delivered impactful results.',
       listItems: [
         {
-          image: '/assets/works/marketing-work-1.png',
+          image: '/assets/images/services/works/banner/banner-service-work1.png',
           title: 'SEO Optimization for E-Commerce',
           link: 'https://example.com/work/marketing1',
         },
         {
-          image: '/assets/works/marketing-work-2.png',
+          image: '/assets/images/services/works/banner/banner-service-work2.png',
+          title: 'Social Media Branding Campaign',
+          link: 'https://example.com/work/marketing2',
+        },
+        {
+          image: '/assets/images/services/works/banner/banner-service-work3.png',
+          title: 'Social Media Branding Campaign',
+          link: 'https://example.com/work/marketing2',
+        },
+        {
+          image: '/assets/images/services/works/banner/banner-service-work4.png',
           title: 'Social Media Branding Campaign',
           link: 'https://example.com/work/marketing2',
         },
       ],
     },
     whatWeGet: {
-      title: 'Why Choose Our Marketing Services?',
+      title: 'What You’ll Get',
       shortDescription: "We use data-driven strategies to enhance your brand's online presence and maximize ROI.",
       list: [
         {
           title: 'Targeted Campaigns',
-          description: 'Reach the right audience with precision marketing.',
+          description:
+            'A large number of email subscribers prefer to read the newsletter on mobile devices. Choose Responsive option while ordering – to make sure your mobile subscribers are not missing any word.',
         },
         {
           title: 'Analytics & Insights',
-          description: 'Track and measure your campaign performance.',
+          description:
+            'A large number of email subscribers prefer to read the newsletter on mobile devices. Choose Responsive option while ordering – to make sure your mobile subscribers are not missing any word.',
         },
         {
           title: 'Lead Generation',
-          description: 'Convert visitors into loyal customers.',
+          description:
+            'A large number of email subscribers prefer to read the newsletter on mobile devices. Choose Responsive option while ordering – to make sure your mobile subscribers are not missing any word.',
         },
         {
           title: 'Social Media Growth',
-          description: "Boost your brand's presence across digital platforms.",
+          description:
+            'A large number of email subscribers prefer to read the newsletter on mobile devices. Choose Responsive option while ordering – to make sure your mobile subscribers are not missing any word.',
         },
       ],
     },
@@ -206,7 +253,7 @@ export const services = [
       image: '/assets/images/services/services-3.png',
     },
     whatWeDo: {
-      image: '/assets/services/digital-marketing-what-we-do.png',
+      image: '/assets/icons/services/services-veeva.svg',
       list: [
         'Running targeted ad campaigns',
         'Improving website search rankings',
@@ -219,36 +266,50 @@ export const services = [
       shortDescription: 'See how our digital marketing strategies have delivered impactful results.',
       listItems: [
         {
-          image: '/assets/works/marketing-work-1.png',
+          image: '/assets/images/services/works/veeva/veeva-service-work1.png',
           title: 'SEO Optimization for E-Commerce',
           link: 'https://example.com/work/marketing1',
         },
         {
-          image: '/assets/works/marketing-work-2.png',
+          image: '/assets/images/services/works/veeva/veeva-service-work2.png',
+          title: 'Social Media Branding Campaign',
+          link: 'https://example.com/work/marketing2',
+        },
+        {
+          image: '/assets/images/services/works/veeva/veeva-service-work3.png',
+          title: 'Social Media Branding Campaign',
+          link: 'https://example.com/work/marketing2',
+        },
+        {
+          image: '/assets/images/services/works/veeva/veeva-service-work4.png',
           title: 'Social Media Branding Campaign',
           link: 'https://example.com/work/marketing2',
         },
       ],
     },
     whatWeGet: {
-      title: 'Why Choose Our Marketing Services?',
+      title: 'What You’ll Get',
       shortDescription: "We use data-driven strategies to enhance your brand's online presence and maximize ROI.",
       list: [
         {
           title: 'Targeted Campaigns',
-          description: 'Reach the right audience with precision marketing.',
+          description:
+            'A large number of email subscribers prefer to read the newsletter on mobile devices. Choose Responsive option while ordering – to make sure your mobile subscribers are not missing any word.',
         },
         {
           title: 'Analytics & Insights',
-          description: 'Track and measure your campaign performance.',
+          description:
+            'A large number of email subscribers prefer to read the newsletter on mobile devices. Choose Responsive option while ordering – to make sure your mobile subscribers are not missing any word.',
         },
         {
           title: 'Lead Generation',
-          description: 'Convert visitors into loyal customers.',
+          description:
+            'A large number of email subscribers prefer to read the newsletter on mobile devices. Choose Responsive option while ordering – to make sure your mobile subscribers are not missing any word.',
         },
         {
           title: 'Social Media Growth',
-          description: "Boost your brand's presence across digital platforms.",
+          description:
+            'A large number of email subscribers prefer to read the newsletter on mobile devices. Choose Responsive option while ordering – to make sure your mobile subscribers are not missing any word.',
         },
       ],
     },
