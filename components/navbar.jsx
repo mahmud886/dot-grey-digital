@@ -45,9 +45,10 @@ const Navbar = () => {
   };
 
   return (
-    <nav className='fixed left-0 w-full  z-50'>
+    <nav className='fixed left-0 w-full z-50 bg-[rgba(16,13,14,0.90)] shadow-[0px_0px_3px_3px_rgba(255,99,71,0.3)] backdrop-blur-[25px]'>
       <div className='container mx-auto p-4'>
-        <div className='flex justify-between items-center p-4  shadow-[0px_0px_3px_3px_rgba(255,99,71,0.3)] rounded-full bg-[rgba(16,13,14,0.90)] backdrop-blur-[25px]'>
+        {/* <div className='flex justify-between items-center p-4  shadow-[0px_0px_3px_3px_rgba(255,99,71,0.3)] rounded-full bg-[rgba(16,13,14,0.90)] backdrop-blur-[25px]'> */}
+        <div className='flex justify-between items-center'>
           {/* Left - Logo */}
           <div className='flex items-center'>
             <Link href='/'>
