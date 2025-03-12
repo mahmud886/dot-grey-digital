@@ -62,7 +62,7 @@ const Navbar = () => {
                 <div key={index} className='relative' ref={dropdownRef}>
                   <button
                     onClick={handleDropdownToggle}
-                    className='flex items-center cursor-pointer gap-1 text-gray-700 dark:text-white hover:text-[var(--primary)]'>
+                    className='flex items-center cursor-pointer gap-1 text-white hover:text-[var(--primary)]'>
                     {item.label} <ChevronDown size={16} />
                   </button>
                   {isDropdownOpen && (
@@ -123,7 +123,7 @@ const Navbar = () => {
                       <Link
                         key={subIndex}
                         href={subItem.href}
-                        className='block px-4 py-2 text-gray-700 dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700'
+                        className='block px-4 py-2 text-white hover:bg-gray-100'
                         onClick={handleDropdownItemClick}>
                         {subItem.label}
                       </Link>
@@ -132,10 +132,7 @@ const Navbar = () => {
                 )}
               </div>
             ) : (
-              <a
-                key={index}
-                href={item.href}
-                className='block px-4 py-2 text-gray-700 dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700'>
+              <a key={index} href={item.href} className='block px-4 py-2 text-text-white hover:bg-gray-100'>
                 {item.label}
               </a>
             )
