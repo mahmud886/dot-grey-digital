@@ -6,10 +6,13 @@ import UpArrow from './svgs/up-arrow';
 
 const Footer = () => {
   return (
-    <footer className='bg-[#0A0A0A] text-white pt-12'>
+    <footer className='relative text-white pt-12 bg-black/70'>
+      <div className='w-full absolute bottom-0 left-1/2 -translate-x-1/2 -z-10'>
+        <div className='shadow-[0px_50px_500px_500px_rgba(255,99,71,0.5)] '></div>
+      </div>
       {/* 🔹 Top Section */}
-      <div className='container mx-auto px-6 py-6 flex flex-col md:flex-row justify-between items-center '>
-        <div className=''>
+      <div className='container mx-auto px-6 py-6 flex flex-col md:flex-row justify-between items-center'>
+        <div>
           <h3 className='text-[70px] font-normal leading-[82px] max-w-[554px]'>Get Started With Your Project</h3>
           <p className='text-[24px] text-white font-normal leading-[82px]'>
             No Obligations <span className='mx-2'>•</span> Free Review & Quote <span className='mx-2'>•</span>
@@ -49,8 +52,7 @@ const Footer = () => {
           <div className='flex items-center justify-center'>
             <input
               type='text'
-              placeholder='Enter your email'
-              className='w-full max-w-[450px] px-5 py-3 rounded-lg text-gray-900 border border-[#6D6D6D] focus:ring focus:ring-red-400'
+              className='w-full max-w-[450px] px-5 py-3 rounded-lg text-white border border-[#6D6D6D] focus:ring focus:ring-red-400'
             />
           </div>
 

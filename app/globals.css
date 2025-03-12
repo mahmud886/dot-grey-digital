@@ -1,7 +1,9 @@
 @import 'tailwindcss';
 
 @theme {
-  --font-sans: var(--font-helvetica);
+  --font-sans: 'Helvetica Neue', Arial, sans-serif;
+  --color-primary: #1da1f2;
+  --color-secondary: #14171a;
 }
 
 :root {
@@ -11,7 +13,7 @@
 
 body {
   color: var(--primary);
-  background: var(--secondary);
+  background: #0a0a0a;
 }
 
 .container {

@@ -3,11 +3,12 @@ import Image from 'next/image';
 
 const FeatureSection = () => {
   return (
-    <section
-      className='relative w-full py-20 bg-cover bg-center bg-[#1D1D1D]'
-      style={{ backgroundImage: "url('/assets/feature-bg.jpg')" }}>
+    <section className='relative w-full py-20'>
+      <div className='w-full absolute bottom-0 left-1/2 -translate-x-1/2 blur-3xl -z-10'>
+        <div className='shadow-[0px_50px_100px_200px_rgba(6,39,41,1)]'></div>
+      </div>
       {/* Overlay for better readability */}
-      <div className='absolute inset-0 bg-[#1D1D1D] bg-opacity-50'></div>
+      <div className='absolute inset-0  bg-opacity-50'></div>
 
       <div className='relative z-10 container mx-auto px-6'>
         {/* Features Grid */}

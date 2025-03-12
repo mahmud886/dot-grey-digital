@@ -4,7 +4,7 @@ import Image from 'next/image';
 
 const Testimonials = () => {
   return (
-    <section className='py-16 bg-[#0A0A0A]'>
+    <section className='py-16'>
       <div className='container mx-auto px-4'>
         {/* Title and Description */}
         <div className='text-center mb-12'>

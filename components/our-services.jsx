@@ -6,7 +6,16 @@ import UpArrow from './svgs/up-arrow';
 
 const OurServices = () => {
   return (
-    <section className='w-full py-20 bg-[#062729]'>
+    <section className='relative py-20 bg-[#062729]/80'>
+      <div className='absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 blur-3xl -z-10'>
+        <div className='shadow-[0px_50px_200px_300px_rgba(6,39,41,1)]'></div>
+      </div>
+      <div className='absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 blur-3xl -z-10'>
+        <div className='shadow-[0px_50px_200px_300px_rgba(6,39,41,1)]'></div>
+      </div>
+      <div className='absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 blur-3xl -z-10'>
+        <div className='shadow-[0px_50px_200px_300px_rgba(6,39,41,1)]'></div>
+      </div>
       <div className='container mx-auto px-6'>
         {/* Section Title */}
         <h2 className='text-[70px] font-normal text-center text-gray-900 dark:text-white'>Our Services</h2>

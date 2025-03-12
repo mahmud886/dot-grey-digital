@@ -45,7 +45,7 @@ const Servicelayout = async ({ children, params }) => {
 
           {/* Right - Image */}
           <div className='w-full md:w-1/2 flex justify-center md:justify-end'>
-            <Image src={service.header?.image} width={800} height={576} alt='Hero' className='w-full h-auto' />
+            <Image src={service?.header?.image} width={800} height={576} alt='Hero' className='w-full h-auto' />
           </div>
         </div>
       </div>
