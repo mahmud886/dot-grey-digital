@@ -47,7 +47,7 @@ const Navbar = () => {
   return (
     <nav className='fixed left-0 w-full  z-50'>
       <div className='container mx-auto p-4'>
-        <div className='flex justify-between items-center p-4 rounded-full bg-[rgba(16,13,14,0.90)] backdrop-blur-[25px]'>
+        <div className='flex justify-between items-center p-4  shadow-[0px_0px_3px_3px_rgba(255,99,71,0.3)] rounded-full bg-[rgba(16,13,14,0.90)] backdrop-blur-[25px]'>
           {/* Left - Logo */}
           <div className='flex items-center'>
             <Link href='/'>
@@ -92,7 +92,7 @@ const Navbar = () => {
 
           {/* Right - Button */}
           <div className='hidden md:flex'>
-            <DynamicButton fontWeight='font-normal' width='min-w-[136px]' borderRadius='rounded-2xl'>
+            <DynamicButton fontWeight='font-normal' width='min-w-[136px]' borderRadius='rounded-full'>
               Get a Quote
             </DynamicButton>
           </div>
