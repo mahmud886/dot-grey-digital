@@ -1,6 +1,7 @@
 'use client';
 import DynamicButton from '@/components/dynamic-button';
 import { ChevronDown, Menu, X } from 'lucide-react';
+import Image from 'next/image';
 import Link from 'next/link';
 import { useEffect, useRef, useState } from 'react';
 
@@ -44,13 +45,13 @@ const Navbar = () => {
   };
 
   return (
-    <nav className='fixed left-0 w-full bg-transparent z-50'>
+    <nav className='fixed left-0 w-full  z-50'>
       <div className='container mx-auto p-4'>
-        <div className='flex justify-between items-center h-16'>
+        <div className='flex justify-between items-center p-4 rounded-full bg-[rgba(16,13,14,0.90)] backdrop-blur-[25px]'>
           {/* Left - Logo */}
           <div className='flex items-center'>
             <Link href='/'>
-              <img src='/assets/logo.svg' alt='Logo' />
+              <Image width={162} height={35} src='/assets/logo.svg' alt='Logo' />
             </Link>
           </div>
 
@@ -65,12 +66,12 @@ const Navbar = () => {
                     {item.label} <ChevronDown size={16} />
                   </button>
                   {isDropdownOpen && (
-                    <div className='absolute left-0 mt-2 w-[200px] bg-[var(--primary)] shadow-md rounded-md'>
+                    <div className='absolute left-0 mt-2 w-[200px] bg-[rgba(16,13,14,1)] backdrop-blur-[25px] shadow-md rounded-md'>
                       {item.dropdown.map((subItem, subIndex) => (
                         <Link
                           key={subIndex}
                           href={subItem.href}
-                          className='block px-4 py-2 text-gray-700 dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700'
+                          className='block px-4 py-2 text-gray-700 dark:text-white hover:bg-[var(--primary)]'
                           onClick={handleDropdownItemClick}>
                           {subItem.label}
                         </Link>
