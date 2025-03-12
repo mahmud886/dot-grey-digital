@@ -72,7 +72,7 @@ const Navbar = () => {
                         <Link
                           key={subIndex}
                           href={subItem.href}
-                          className='block px-4 py-2 text-gray-700 dark:text-white hover:bg-[var(--primary)]'
+                          className='block px-4 py-2 text-white hover:bg-[var(--primary)]'
                           onClick={handleDropdownItemClick}>
                           {subItem.label}
                         </Link>
@@ -84,7 +84,7 @@ const Navbar = () => {
                 <a
                   key={index}
                   href={item.href}
-                  className='text-gray-700 dark:text-white hover:text-[var(--primary)] font-sans font-normal'>
+                  className='text-white hover:text-[var(--primary)] font-sans font-normal'>
                   {item.label}
                 </a>
               )
